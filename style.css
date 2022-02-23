@@ -1,0 +1,35 @@
+input{
+    width: 70px;
+    height: 30px;
+    border: 1px dashed gray;
+
+}
+form{
+    display: flex;
+  
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#ha{
+    width: 60px;
+    height: 35px;
+    border: 2px dashed darkgray;
+    border-radius: 4%;
+    text-align: center;
+    transition: 2s;
+}
+.out{
+    margin-top: 25px;
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+}
+#ha:hover{
+    border:none;
+    font-weight: bold;
+    background-color: darkseagreen;
+}
