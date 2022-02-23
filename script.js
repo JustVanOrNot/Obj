@@ -45,8 +45,13 @@ function set(){
                 iterator++;
                 break;
             case 4: 
-                iterator=0;
+               iterator = 1;
+               user.name='Karina',
+                user.age=24,
+                user.is24=true
+                iterator++;
                 break;
+                
         }
     }
     
